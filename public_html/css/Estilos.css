@@ -10,7 +10,7 @@ and open the template in the editor.
 
 #cabecera{
     font-family: Forte;
-    font-size: 20px;
+    font-size: 45px;
     color: #0B3B17;
     text-align: center;
 }
@@ -41,5 +41,34 @@ img{
 #pie{
     background: #7B9B75;
     text-align: center;
+    font-weight: bold;
     
+}
+form{
+    margin: 0 auto;
+    width:700px;
+    background: #7B9B75;
+    padding: 15px;
+    border-radius: 10px;
+   
+}
+h1{
+    text-align: center;
+}
+form div{
+    margin-bottom: 5px;
+    
+}
+label{
+    font-family: Forte;
+    width: 100px;
+    text-align: right;
+    display: inline;
+}
+input{
+    width: 200px;
+}
+textArea{
+    width: 400px; 
+    vertical-align: middle;
 }

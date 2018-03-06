@@ -9,6 +9,7 @@ and open the template in the editor.
         <title>TODO supply a title</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="css/Estilos.css" rel="stylesheet" type="text/css"/>
     </head>
     <body>
               <div id="cabecera">
@@ -25,8 +26,43 @@ and open the template in the editor.
             </ul>
             </div>
         <div id="formulario">
+            <h1>Formulario de contacto</h1>
+            <form>
+                <div>
+                <label for="nombre"> Nombre: </label>
+                <input type="text" id="nombre"/>
+                </div>
+                <div>
+                <label for="Telefono"> Telefono: </label>
+                <input type="text" id="Telefono"/>
+                </div>
+                <div>
+                <label for="Correo"> E-mail: </label>
+                <input type="email" id="correo"/>
+                </div>
+                <div>
+                <label for="asunto"> Asunto: </label>
+                <select id="asunto" name="asunto">
+                    <option value="Elige una opcion" selected="selected"> Elige una opcion</option> 
+                    <option value="Informacion"> Informacion</option> 
+                    <option value="Cotizacion" >  Cotizacion</option>
+                    <option value="Solicitar cotizacion" > Solicitar cotizacion</option>
+                    <option value="Realizar una reclamacion"> Realizar una reclamacion</option>
+                    <option value="Otro"> Otro</option>
+                </select>
+                </div>
+                
+                <div>
+                    <label for="mensaje">Mensaje: </label>
+                    <textarea id="msg" cols="80" rows="10"></textarea>
+                </div>
+                <div class="boton">
+                    <button type="submit">Enviar</button>
+                </div>
+            </form>
         </div>
-        
+        <br/>
+        <br/>
          <div id="pie">
             Carretera don pedro #18 Hoya del Caimito. Santiago de los Caballeros Republica dominicana<br/>
             Tel. 849-286-1576 y 809-582-2025<br/>
